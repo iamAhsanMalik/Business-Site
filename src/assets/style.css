@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap');
+
+/* custom colors  */
+
+:root {
+	--defaultColor: #fff;
+	--backgroundColor: #f1f5fd;
+	--primaryColor: #6f5de7;
+	--textColor: #828286;
+	--mainTextColor: #333333;
+	--shadowColor: rgba(183, 171, 255, 0.5);
+}
+
+*,
+::before,
+::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Poppins', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	color: var(--mainTextColor);
+}
+
+/* Button Styling */
+.btn-style {
+	width: 6rem;
+	height: 2.5rem;
+	border: 0.1rem solid var(--primaryColor);
+	background-color: transparent;
+	text-transform: capitalize;
+	color: var(--primaryColor);
+	margin: 0 0.8rem;
+	border-radius: 1rem;
+	-webkit-border-radius: 1rem;
+	-moz-border-radius: 1rem;
+	-ms-border-radius: 1rem;
+	-o-border-radius: 1rem;
+}
+.btn-style:hover {
+	background-color: var(--primaryColor);
+	color: var(--defaultColor);
+	box-shadow: 0 0.2rem 0.5rem rgba(183, 171, 255, 0.5);
+}
+
+.btn-style-border {
+	border: 0.1rem solid var(--primaryColor);
+	background-color: transparent;
+	box-shadow: 0 0.2rem 0.5rem var(--shadowColor);
+}

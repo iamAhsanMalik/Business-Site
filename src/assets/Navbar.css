@@ -1,0 +1,18 @@
+.header-section {
+	background-color: var(--backgroundColor);
+}
+
+a.navbar-brand {
+	font-size: 2rem;
+	font-weight: normal;
+}
+
+.navbar li {
+	padding: 0 0.8rem;
+	font-weight: lighter;
+}
+
+.navbar li a:hover {
+	color: var(--primaryColor) !important;
+	text-shadow: 0 0.2rem 0.3rem var(--shadowColor);
+}
